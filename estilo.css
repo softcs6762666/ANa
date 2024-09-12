@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #9b4a63, #d4cece);
+}
+
+header{
+    background: linear-gradient(135deg, #9b4e63, #d4cece);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.btn {
+    color: transparent;
+    background-color: transparent;
+    padding: 10px;
+    left: auto;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: trasnform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: relative;
+  }
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
+  .social-media a img {
+    width: 30px;  /* Define o tamanho do ícone */
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 6px;
+  }
+  
+  .social-media a img:hover {
+    transform: scale(1.2);  /* Efeito de zoom ao passar o mouse */
+  }
