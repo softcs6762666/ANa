@@ -27,7 +27,7 @@ if (loginForm) {
         const password = document.getElementById('password').value;
 
         // Login simples com usuário fixo (pode integrar com backend para login real)
-        if (username === 'admin' && password === '1234') {
+        if (username === 'Jake' && password === '311023') {
             login(username);
         } else {
             errorMessage.style.display = 'block';
